@@ -1,0 +1,27 @@
+[Profile]
+ID=BCH
+Version=5
+[Batch]
+Run1=;   If you want to modify an existing batch file,  please choose 
+Run2=;      [File] - [Open].
+Run3=;   If you want WorkStation Profiles or other programs to be included
+Run4=;   in a batch file, you must enter them in the edit area below.
+Run5=;   To do this, double-click the filename in the listbox or select it
+Run6=;   and choose Add, or press the Capture View button to have the
+Run7=;   existing sessions added automatically.
+Run8=; 
+Run9=;   If you want to suppress the IBM logo, add /Q to the command for
+Run10=;   the first session.
+Run11=;   If you want to have the sessions start as a View, add /v=<viewname>
+Run12=;   to the last session.
+Run13=;   To start a session as an icon, not as a window, add the parameter /I
+Run14=;   to the command.
+Run15=;   To start a hidden session, not as an icon or a window, add the 
+Run16=;   parameter /H to the command.
+Run17=;   To start a session with a specific short session ID (session letter),
+Run18=;   insert the parameter /S=<session letter>.
+Run19=; 
+Run20=;   The remarks above will be ignored when the batch file is run.
+Run21=; 
+Run22=C:\Program Files (x86)\IBM\Client Access\Emulator\pcsws.exe "C:\USERS\ADMINISTRATOR\DOCUMENTS\TIM PRATIBHA\pratibha.ws"
+Run23=C:\Program Files (x86)\IBM\Client Access\Emulator\pcsws.exe "C:\USERS\ADMINISTRATOR\DOCUMENTS\TIM PRATIBHA\pratibha.ws"
