@@ -26,4 +26,7 @@ Language=United-States
 IBMDefaultKeyboard=N
 DefaultKeyboard=C:\Users\Administrator\AppData\Roaming\IBM\Client Access\Emulator\private\AS400.KMP
 [LastExitView]
-A=3 173 179 976 492 3 12 14 400 0 IBM3270— 37
+A=4 104 104 1024 576 3 12 24 400 0 IBM3270— 37
+[Window]
+ViewFlags=CE00
+RuleLinePos=0 0

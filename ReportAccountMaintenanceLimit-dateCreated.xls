@@ -1,0 +1,2281 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="ProgId" content="Excel.Sheet"/>
+  <meta name="Generator" content="WPS Office ET"/>
+  <!--[if gte mso 9]>
+   <xml>
+    <o:DocumentProperties>
+     <o:Created>2020-08-06T15:36:02</o:Created>
+     <o:LastAuthor>13117874</o:LastAuthor>
+     <o:LastSaved>2020-08-06T15:38:20</o:LastSaved>
+    </o:DocumentProperties>
+    <o:CustomDocumentProperties>
+     <o:KSOProductBuildVer dt:dt="string">1033-11.2.0.8684</o:KSOProductBuildVer>
+    </o:CustomDocumentProperties>
+   </xml>
+  <![endif]-->
+  <style>
+<!-- @page
+	{margin:1.00in 0.75in 1.00in 0.75in;
+	mso-header-margin:0.50in;
+	mso-footer-margin:0.50in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.font0
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font1
+	{color:#000000;
+	font-size:19.5pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font2
+	{color:#000000;
+	font-size:13.5pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font3
+	{color:#000000;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font4
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font5
+	{color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font6
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font7
+	{color:#006100;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font8
+	{color:#44546A;
+	font-size:15.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font9
+	{color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font10
+	{color:#3F3F76;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font11
+	{color:#0000FF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font12
+	{color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font13
+	{color:#9C6500;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font14
+	{color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font15
+	{color:#44546A;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font16
+	{color:#44546A;
+	font-size:18.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font17
+	{color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font18
+	{color:#3F3F3F;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font19
+	{color:#9C0006;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font20
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font21
+	{color:#7F7F7F;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font22
+	{color:#FF0000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font23
+	{color:#800080;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"Calibri";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.style0
+	{mso-number-format:"General";
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-pattern:auto;
+	mso-background-source:auto;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:"Normal";
+	mso-style-id:0;}
+.style16
+	{mso-pattern:auto none;
+	background:#BDD7EE;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - Accent1";}
+.style17
+	{mso-number-format:"_ * \#\,\#\#0\.00_ \;_ * \\-\#\,\#\#0\.00_ \;_ * \0022-\0022??_ \;_ \@_ ";
+	mso-style-name:"Comma";
+	mso-style-id:3;}
+.style18
+	{mso-number-format:"_ * \#\,\#\#0_ \;_ * \\-\#\,\#\#0_ \;_ * \0022-\0022_ \;_ \@_ ";
+	mso-style-name:"Comma [0]";
+	mso-style-id:6;}
+.style19
+	{mso-number-format:"_\(\\$* \#\,\#\#0_\)\;_\(\\$* \\\(\#\,\#\#0\\\)\;_\(\\$* \0022-\0022_\)\;_\(\@_\)";
+	mso-style-name:"Currency [0]";
+	mso-style-id:7;}
+.style20
+	{mso-number-format:"_\(\\$* \#\,\#\#0\.00_\)\;_\(\\$* \\\(\#\,\#\#0\.00\\\)\;_\(\\$* \0022-\0022??_\)\;_\(\@_\)";
+	mso-style-name:"Currency";
+	mso-style-id:4;}
+.style21
+	{mso-number-format:"0%";
+	mso-style-name:"Percent";
+	mso-style-id:5;}
+.style22
+	{mso-pattern:auto none;
+	background:#A5A5A5;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:2.0pt double #3F3F3F;
+	mso-style-name:"Check Cell";}
+.style23
+	{color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border-bottom:1.0pt solid #5B9BD5;
+	mso-style-name:"Heading 2";}
+.style24
+	{mso-pattern:auto none;
+	background:#FFFFCC;
+	border:.5pt solid #B2B2B2;
+	mso-style-name:"Note";}
+.style25
+	{color:#0000FF;
+	font-size:11.0pt;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri;
+	mso-style-name:"Hyperlink";
+	mso-style-id:8;}
+.style26
+	{mso-pattern:auto none;
+	background:#FFD966;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - Accent4";}
+.style27
+	{color:#800080;
+	font-size:11.0pt;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Calibri;
+	mso-style-name:"Followed Hyperlink";
+	mso-style-id:9;}
+.style28
+	{mso-pattern:auto none;
+	background:#DBDBDB;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - Accent3";}
+.style29
+	{color:#FF0000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Warning Text";}
+.style30
+	{mso-pattern:auto none;
+	background:#F8CBAD;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - Accent2";}
+.style31
+	{color:#44546A;
+	font-size:18.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-style-name:"Title";}
+.style32
+	{color:#7F7F7F;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"CExplanatory Text";}
+.style33
+	{color:#44546A;
+	font-size:15.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border-bottom:1.0pt solid #5B9BD5;
+	mso-style-name:"Heading 1";}
+.style34
+	{color:#44546A;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border-bottom:1.0pt solid #ACCCEA;
+	mso-style-name:"Heading 3";}
+.style35
+	{color:#44546A;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-style-name:"Heading 4";}
+.style36
+	{mso-pattern:auto none;
+	background:#FFCC99;
+	color:#3F3F76;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid #7F7F7F;
+	mso-style-name:"Input";}
+.style37
+	{mso-pattern:auto none;
+	background:#C9C9C9;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - Accent3";}
+.style38
+	{mso-pattern:auto none;
+	background:#C6EFCE;
+	color:#006100;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Good";}
+.style39
+	{mso-pattern:auto none;
+	background:#F2F2F2;
+	color:#3F3F3F;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid #3F3F3F;
+	mso-style-name:"Output";}
+.style40
+	{mso-pattern:auto none;
+	background:#DDEBF7;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - Accent1";}
+.style41
+	{mso-pattern:auto none;
+	background:#F2F2F2;
+	color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:.5pt solid #7F7F7F;
+	mso-style-name:"Calculation";}
+.style42
+	{color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-bottom:2.0pt double #FF8001;
+	mso-style-name:"Linked Cell";}
+.style43
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border-top:.5pt solid #5B9BD5;
+	border-bottom:2.0pt double #5B9BD5;
+	mso-style-name:"Total";}
+.style44
+	{mso-pattern:auto none;
+	background:#FFC7CE;
+	color:#9C0006;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Bad";}
+.style45
+	{mso-pattern:auto none;
+	background:#FFEB9C;
+	color:#9C6500;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Neutral";}
+.style46
+	{mso-pattern:auto none;
+	background:#5B9BD5;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Accent1";}
+.style47
+	{mso-pattern:auto none;
+	background:#D9E1F2;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - Accent5";}
+.style48
+	{mso-pattern:auto none;
+	background:#9BC2E6;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - Accent1";}
+.style49
+	{mso-pattern:auto none;
+	background:#ED7D31;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Accent2";}
+.style50
+	{mso-pattern:auto none;
+	background:#FCE4D6;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - Accent2";}
+.style51
+	{mso-pattern:auto none;
+	background:#E2EFDA;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - Accent6";}
+.style52
+	{mso-pattern:auto none;
+	background:#F4B084;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - Accent2";}
+.style53
+	{mso-pattern:auto none;
+	background:#A5A5A5;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Accent3";}
+.style54
+	{mso-pattern:auto none;
+	background:#EDEDED;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - Accent3";}
+.style55
+	{mso-pattern:auto none;
+	background:#FFC000;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Accent4";}
+.style56
+	{mso-pattern:auto none;
+	background:#FFF2CC;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"20% - Accent4";}
+.style57
+	{mso-pattern:auto none;
+	background:#FFE699;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - Accent4";}
+.style58
+	{mso-pattern:auto none;
+	background:#4472C4;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Accent5";}
+.style59
+	{mso-pattern:auto none;
+	background:#B4C6E7;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - Accent5";}
+.style60
+	{mso-pattern:auto none;
+	background:#8EA9DB;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - Accent5";}
+.style61
+	{mso-pattern:auto none;
+	background:#70AD47;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"Accent6";}
+.style62
+	{mso-pattern:auto none;
+	background:#C6E0B4;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"40% - Accent6";}
+.style63
+	{mso-pattern:auto none;
+	background:#A9D08E;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:"60% - Accent6";}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	mso-number-format:"General";
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-pattern:auto;
+	mso-background-source:auto;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;}
+.xl65
+	{mso-style-parent:style0;
+	text-align:center;
+	white-space:normal;
+	font-size:19.5pt;
+	font-weight:700;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl66
+	{mso-style-parent:style0;
+	mso-font-charset:134;
+	border-left:.5pt solid windowtext;}
+.xl67
+	{mso-style-parent:style0;
+	text-align:center;
+	white-space:normal;
+	font-size:13.5pt;
+	font-weight:700;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl68
+	{mso-style-parent:style0;
+	text-align:center;
+	white-space:normal;
+	font-size:12.0pt;
+	font-weight:700;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl69
+	{mso-style-parent:style0;
+	text-align:center;
+	white-space:normal;
+	font-weight:700;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl70
+	{mso-style-parent:style0;
+	white-space:normal;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl71
+	{mso-style-parent:style0;
+	mso-number-format:"\@";
+	white-space:normal;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl72
+	{mso-style-parent:style0;
+	mso-font-charset:134;
+	border-left:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;}
+.xl73
+	{mso-style-parent:style0;
+	mso-font-charset:134;
+	border-bottom:.5pt solid windowtext;}
+.xl74
+	{mso-style-parent:style0;
+	mso-font-charset:134;
+	border-top:.5pt solid windowtext;}
+.xl75
+	{mso-style-parent:style0;
+	mso-number-format:"\#\,\#\#0";
+	white-space:normal;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl76
+	{mso-style-parent:style0;
+	mso-number-format:"m/d/yyyy";
+	white-space:normal;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl77
+	{mso-style-parent:style0;
+	mso-number-format:"m/d/yyyy\\ h:mm";
+	white-space:normal;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+.xl78
+	{mso-style-parent:style0;
+	mso-font-charset:134;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;}
+.xl79
+	{mso-style-parent:style0;
+	mso-font-charset:134;
+	border-right:.5pt solid windowtext;}
+.xl80
+	{mso-style-parent:style0;
+	mso-font-charset:134;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;}
+ -->  </style>
+  <!--[if gte mso 9]>
+   <xml>
+    <x:ExcelWorkbook>
+     <x:ExcelWorksheets>
+      <x:ExcelWorksheet>
+       <x:Name>ReportAccountMaintenanceLimit-d</x:Name>
+       <x:WorksheetOptions>
+        <x:DefaultRowHeight>300</x:DefaultRowHeight>
+        <x:StandardWidth>2340</x:StandardWidth>
+        <x:Selected/>
+        <x:Panes>
+         <x:Pane>
+          <x:Number>3</x:Number>
+          <x:ActiveCol>0</x:ActiveCol>
+          <x:ActiveRow>5</x:ActiveRow>
+          <x:RangeSelection>A6:A45</x:RangeSelection>
+         </x:Pane>
+        </x:Panes>
+        <x:DoNotDisplayGridlines/>
+        <x:ProtectContents>False</x:ProtectContents>
+        <x:ProtectObjects>False</x:ProtectObjects>
+        <x:ProtectScenarios>False</x:ProtectScenarios>
+        <x:Print>
+         <x:PaperSizeIndex>9</x:PaperSizeIndex>
+        </x:Print>
+       </x:WorksheetOptions>
+      </x:ExcelWorksheet>
+     </x:ExcelWorksheets>
+     <x:ProtectStructure>False</x:ProtectStructure>
+     <x:ProtectWindows>False</x:ProtectWindows>
+     <x:WindowHeight>7845</x:WindowHeight>
+     <x:WindowWidth>19845</x:WindowWidth>
+    </x:ExcelWorkbook>
+    <x:ExcelName>
+     <x:Name>_FilterDatabase</x:Name>
+     <x:Hidden/>
+     <x:SheetIndex>1</x:SheetIndex>
+     <x:Formula>='ReportAccountMaintenanceLimit-d'!$A$5:$AB$45</x:Formula>
+    </x:ExcelName>
+   </xml>
+  <![endif]-->
+ </head>
+ <body link="blue" vlink="purple">
+  <table width="4189" border="0" cellpadding="0" cellspacing="0" style='width:3141.75pt;border-collapse:collapse;table-layout:fixed;'>
+   <col width="33" style='mso-width-source:userset;mso-width-alt:1206;'/>
+   <col width="128" style='mso-width-source:userset;mso-width-alt:4680;'/>
+   <col width="85" style='mso-width-source:userset;mso-width-alt:3108;'/>
+   <col width="288" style='mso-width-source:userset;mso-width-alt:10532;'/>
+   <col width="115" style='mso-width-source:userset;mso-width-alt:4205;'/>
+   <col width="128" style='mso-width-source:userset;mso-width-alt:4680;'/>
+   <col width="288" style='mso-width-source:userset;mso-width-alt:10532;'/>
+   <col width="123" style='mso-width-source:userset;mso-width-alt:4498;'/>
+   <col width="120" style='mso-width-source:userset;mso-width-alt:4388;'/>
+   <col width="113" style='mso-width-source:userset;mso-width-alt:4132;'/>
+   <col width="101" style='mso-width-source:userset;mso-width-alt:3693;'/>
+   <col width="138" style='mso-width-source:userset;mso-width-alt:5046;'/>
+   <col width="277" style='mso-width-source:userset;mso-width-alt:10129;'/>
+   <col width="87" style='mso-width-source:userset;mso-width-alt:3181;'/>
+   <col width="56" style='mso-width-source:userset;mso-width-alt:2047;'/>
+   <col width="111" style='mso-width-source:userset;mso-width-alt:4059;'/>
+   <col width="267" style='mso-width-source:userset;mso-width-alt:9764;'/>
+   <col width="238" style='mso-width-source:userset;mso-width-alt:8703;'/>
+   <col width="111" style='mso-width-source:userset;mso-width-alt:4059;'/>
+   <col width="105" style='mso-width-source:userset;mso-width-alt:3839;'/>
+   <col width="250" style='mso-width-source:userset;mso-width-alt:9142;'/>
+   <col width="100" style='mso-width-source:userset;mso-width-alt:3657;'/>
+   <col width="136" style='mso-width-source:userset;mso-width-alt:4973;'/>
+   <col width="262" style='mso-width-source:userset;mso-width-alt:9581;'/>
+   <col width="175" style='mso-width-source:userset;mso-width-alt:6399;'/>
+   <col width="139" style='mso-width-source:userset;mso-width-alt:5083;'/>
+   <col width="111" style='mso-width-source:userset;mso-width-alt:4059;'/>
+   <col width="104" style='mso-width-source:userset;mso-width-alt:3803;'/>
+   <tr height="34" style='height:25.50pt;mso-height-source:userset;mso-height-alt:510;'>
+    <td class="xl65" height="34" width="2080" colspan="15" style='height:25.50pt;width:1560.00pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>Report Account Maintenence System am</td>
+    <td class="xl74" width="111" style='width:83.25pt;'></td>
+    <td class="xl74" width="267" style='width:200.25pt;'></td>
+    <td class="xl74" width="238" style='width:178.50pt;'></td>
+    <td class="xl74" width="111" style='width:83.25pt;'></td>
+    <td class="xl74" width="105" style='width:78.75pt;'></td>
+    <td class="xl74" width="250" style='width:187.50pt;'></td>
+    <td class="xl74" width="100" style='width:75.00pt;'></td>
+    <td class="xl74" width="136" style='width:102.00pt;'></td>
+    <td class="xl74" width="262" style='width:196.50pt;'></td>
+    <td class="xl74" width="175" style='width:131.25pt;'></td>
+    <td class="xl74" width="139" style='width:104.25pt;'></td>
+    <td class="xl74" width="111" style='width:83.25pt;'></td>
+    <td class="xl78" width="104" style='width:78.00pt;'></td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" style='height:15.00pt;'></td>
+    <td colspan="26" style='mso-ignore:colspan;'></td>
+    <td class="xl79"></td>
+   </tr>
+   <tr height="24" style='height:18.00pt;mso-height-source:userset;mso-height-alt:360;'>
+    <td class="xl67" height="24" colspan="3" style='height:18.00pt;border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>All Report</td>
+    <td class="xl68" colspan="6" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>Start Date :</td>
+    <td class="xl68" colspan="6" style='border-right:.5pt solid windowtext;border-bottom:.5pt solid windowtext;' x:str>End Date :</td>
+    <td colspan="12" style='mso-ignore:colspan;'></td>
+    <td class="xl79"></td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" style='height:15.00pt;'></td>
+    <td colspan="26" style='mso-ignore:colspan;'></td>
+    <td class="xl79"></td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl69" height="20" x:autofilter="all" x:autofilterrange="$A$5:AB45" style='height:15.00pt;' x:str>No.</td>
+    <td class="xl69" x:autofilter="all" x:str>NO KARTU</td>
+    <td class="xl69" x:autofilter="all" x:str>NO TICKET</td>
+    <td class="xl69" x:autofilter="all" x:str>NAMA</td>
+    <td class="xl69" x:autofilter="all" x:str>NO HP</td>
+    <td class="xl69" x:autofilter="all" x:str>CASE TYPE</td>
+    <td class="xl69" x:autofilter="all" x:str>SUB JENIS LAPORAN</td>
+    <td class="xl69" x:autofilter="all" x:str>OLD CREDIT LIMIT</td>
+    <td class="xl69" x:autofilter="all" x:str>NEW CARD LIMIT</td>
+    <td class="xl69" x:autofilter="all" x:str>Date Valid From</td>
+    <td class="xl69" x:autofilter="all" x:str>Temp Valid To</td>
+    <td class="xl69" x:autofilter="all" x:str>New Card Number</td>
+    <td class="xl69" x:autofilter="all" x:str>Supplement</td>
+    <td class="xl69" x:autofilter="all" x:str>Replace Fee</td>
+    <td class="xl69" x:autofilter="all" x:str>Scoring</td>
+    <td class="xl69" x:autofilter="all" x:str>Card Date Open</td>
+    <td class="xl69" x:autofilter="all" x:str>DECLINE REASON (ANALYST)</td>
+    <td class="xl69" x:autofilter="all" x:str>DECLINE REASON (HEAD ANALYST)</td>
+    <td class="xl69" x:autofilter="all" x:str>Status/Decision</td>
+    <td class="xl69" x:autofilter="all" x:str>Tanggal Masuk</td>
+    <td class="xl69" x:autofilter="all" x:str>User Analyst</td>
+    <td class="xl69" x:autofilter="all" x:str>Status Analyst</td>
+    <td class="xl69" x:autofilter="all" x:str>Date Status Analyst</td>
+    <td class="xl69" x:autofilter="all" x:str>User Head Analyst</td>
+    <td class="xl69" x:autofilter="all" x:str>Date Status Head Analyst</td>
+    <td class="xl69" x:autofilter="all" x:str>Status Head Analyst</td>
+    <td class="xl69" x:autofilter="all" x:str>Status/Decision</td>
+    <td class="xl69" x:autofilter="all" x:str>Tgl Status</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl70" height="40" align="right" style='height:30.00pt;' x:num>1</td>
+    <td class="xl71" x:str>4726700050027218</td>
+    <td class="xl70" x:str>REV8832917</td>
+    <td class="xl70" x:str>MUHAMMAD IMRON MUTTAQY</td>
+    <td class="xl70" align="right" x:num>811226125</td>
+    <td class="xl70" x:str>turunLimit</td>
+    <td class="xl70" x:str>Kenaikan / Penurunan Limit Kredit (Permanent)</td>
+    <td class="xl70" align="right" x:num>500000000</td>
+    <td class="xl75" align="right" x:num="300000000.">300,000,000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>561</td>
+    <td class="xl70" align="right" x:num>20191202</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.266979166663">8/3/2020 6:24</td>
+    <td class="xl70" x:str>RINDANG PANGESTU (13117872)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>YOHANES DWI PRASETYO(02083262)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.587106481478">8/3/2020 14:05</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl70" height="40" align="right" style='height:30.00pt;' x:num>2</td>
+    <td class="xl71" x:str>4726700050332550</td>
+    <td class="xl70" x:str>REV8839755</td>
+    <td class="xl70" x:str>TRY HANDOKO SISWANTO</td>
+    <td class="xl70" align="right" x:num>81351302637</td>
+    <td class="xl70" x:str>nltemporary</td>
+    <td class="xl70" x:str>Kenaikan / Penurunan Limit Kredit (Temporary)</td>
+    <td class="xl70" align="right" x:num>50000000</td>
+    <td class="xl75" align="right" x:num="70000000.">70,000,000</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl76" align="right" x:num="43899.">3/9/2020</td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>621</td>
+    <td class="xl70" align="right" x:num>20180201</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.267060185186">8/3/2020 6:24</td>
+    <td class="xl70" x:str>RINDANG PANGESTU (13117872)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>YOHANES DWI PRASETYO(02083262)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.570173611108">8/3/2020 13:41</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>3</td>
+    <td class="xl71" x:str>4726700050495357</td>
+    <td class="xl70" x:str>REV8839930</td>
+    <td class="xl70" x:str>ANDY HARTANTO</td>
+    <td class="xl70" align="right" x:num>81329999888</td>
+    <td class="xl70" x:str>replacement_RNB</td>
+    <td class="xl70" x:str>Replace Kartu (Non OTP)</td>
+    <td class="xl70" align="right" x:num>50000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4726 7000 5055 2694</td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>640</td>
+    <td class="xl70" align="right" x:num>20200618</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.267442129632">8/3/2020 6:25</td>
+    <td class="xl70" x:str>Haris Hanrico (B15032208)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>VERANI ROSITA(14038312)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>reanalisa</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.348113425927">8/3/2020 8:21</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>4</td>
+    <td class="xl71" x:str>4726700050025311</td>
+    <td class="xl70" x:str>REV8840596</td>
+    <td class="xl70" x:str>AKBARSYAH</td>
+    <td class="xl70" align="right" x:num>81388068888</td>
+    <td class="xl70" x:str>replacement_RNB</td>
+    <td class="xl70" x:str>Replace Kartu (Non OTP)</td>
+    <td class="xl70" align="right" x:num>500000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4726 7000 5078 3083</td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>615</td>
+    <td class="xl70" align="right" x:num>20190516</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.267523148148">8/3/2020 6:25</td>
+    <td class="xl70" x:str>Haris Hanrico (B15032208)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>VERANI ROSITA(14038312)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>reanalisa</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.349965277775">8/3/2020 8:23</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>5</td>
+    <td class="xl71" x:str>4890870010215771</td>
+    <td class="xl70" x:str>REV8812125</td>
+    <td class="xl70" x:str>OLIVIA NOVITA</td>
+    <td class="xl70" align="right" x:num>8179942776</td>
+    <td class="xl70" x:str>releaseBlockColl</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>50000000</td>
+    <td class="xl75" align="right" x:num="30000000.">30,000,000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>632</td>
+    <td class="xl70" align="right" x:num>20090728</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.267951388887">8/3/2020 6:25</td>
+    <td class="xl70" x:str>Lintang Selviana Aswan (H19129187)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>VERANI ROSITA(14038312)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.506909722222">8/3/2020 12:09</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>6</td>
+    <td class="xl71" x:str>4201940052811169</td>
+    <td class="xl70" x:str>REV8807871</td>
+    <td class="xl70" x:str>FRANKY SUHENDA</td>
+    <td class="xl70" align="right" x:num>81318019755</td>
+    <td class="xl70" x:str>releaseBlockColl</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>30000000</td>
+    <td class="xl75" align="right" x:num="21000000.">21,000,000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>578</td>
+    <td class="xl70" align="right" x:num>20101222</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.268043981479">8/3/2020 6:25</td>
+    <td class="xl70" x:str>Lintang Selviana Aswan (H19129187)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>VERANI ROSITA(14038312)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.511817129627">8/3/2020 12:17</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>7</td>
+    <td class="xl71" x:str>4890870010969369</td>
+    <td class="xl70" x:str>REV8808539</td>
+    <td class="xl70" x:str>GUSTI DEWI PUSPITA SARI</td>
+    <td class="xl70" align="right" x:num>81348281993</td>
+    <td class="xl70" x:str>releaseBlockColl</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>15000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>579</td>
+    <td class="xl70" align="right" x:num>20140903</td>
+    <td class="xl70" x:str>D05 - Bad SLIK</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.268125000002">8/3/2020 6:26</td>
+    <td class="xl70" x:str>Lintang Selviana Aswan (H19129187)</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.415833333333">8/3/2020 9:58</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>8</td>
+    <td class="xl71" x:str>4201920066078989</td>
+    <td class="xl70" x:str>REV8811102</td>
+    <td class="xl70" x:str>CORY NOVIYANTI</td>
+    <td class="xl70" align="right" x:num>81218913110</td>
+    <td class="xl70" x:str>releaseBlockColl</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>14000000</td>
+    <td class="xl75" align="right" x:num="9000000.">9,000,000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>524</td>
+    <td class="xl70" align="right" x:num>20120702</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.268206018518">8/3/2020 6:26</td>
+    <td class="xl70" x:str>Lintang Selviana Aswan (H19129187)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>VERANI ROSITA(14038312)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.577164351853">8/3/2020 13:51</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>9</td>
+    <td class="xl71" x:str>4890870054248332</td>
+    <td class="xl70" x:str>REV8811174</td>
+    <td class="xl70" x:str>CORY NOVIYANTI</td>
+    <td class="xl70" align="right" x:num>81218913110</td>
+    <td class="xl70" x:str>releaseBlockColl</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>8000000</td>
+    <td class="xl75" align="right" x:num="5000000.">5,000,000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>644</td>
+    <td class="xl70" align="right" x:num>20120702</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.268287037034">8/3/2020 6:26</td>
+    <td class="xl70" x:str>Lintang Selviana Aswan (H19129187)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>VERANI ROSITA(14038312)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.580324074072">8/3/2020 13:55</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>10</td>
+    <td class="xl71" x:str>4201920127513537</td>
+    <td class="xl70" x:str>REV8813491</td>
+    <td class="xl70" x:str>LO NOVITA ANDRIANY LORINA</td>
+    <td class="xl70" align="right" x:num>81807017380</td>
+    <td class="xl70" x:str>releaseBlockColl</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>13000000</td>
+    <td class="xl75" align="right" x:num="9000000.">9,000,000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>612</td>
+    <td class="xl70" align="right" x:num>20111102</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.268460648149">8/3/2020 6:26</td>
+    <td class="xl70" x:str>Lintang Selviana Aswan (H19129187)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>VERANI ROSITA(14038312)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.522627314815">8/3/2020 12:32</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>11</td>
+    <td class="xl71" x:str>4201920093931309</td>
+    <td class="xl70" x:str>REV8814101</td>
+    <td class="xl70" x:str>MARGARETA AYU MEDIA SAPUTRI</td>
+    <td class="xl70" align="right" x:num>81233589211</td>
+    <td class="xl70" x:str>releaseBlockColl</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>2000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>521</td>
+    <td class="xl70" align="right" x:num>20171116</td>
+    <td class="xl70" x:str>D05 - Bad SLIK</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.268541666665">8/3/2020 6:26</td>
+    <td class="xl70" x:str>Lintang Selviana Aswan (H19129187)</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.438414351855">8/3/2020 10:31</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl70" height="40" align="right" style='height:30.00pt;' x:num>12</td>
+    <td class="xl71" x:str>4784870070159322</td>
+    <td class="xl70" x:str>REV8832181</td>
+    <td class="xl70" x:str>DEDDY EKA WIJANARKO</td>
+    <td class="xl70" align="right" x:num>81945571085</td>
+    <td class="xl70" x:str>maintain_Data</td>
+    <td class="xl70" x:str>Kenaikan / Penurunan Limit Kredit (Permanent)</td>
+    <td class="xl70" align="right" x:num>8000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>550</td>
+    <td class="xl70" align="right" x:num>20140721</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.269050925926">8/3/2020 6:27</td>
+    <td class="xl70" x:str>Haris Hanrico (B15032208)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>VERANI ROSITA(14038312)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.334305555552">8/3/2020 8:01</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl70" height="40" align="right" style='height:30.00pt;' x:num>13</td>
+    <td class="xl71" x:str>4201920113022352</td>
+    <td class="xl70" x:str>REV8831764</td>
+    <td class="xl70" x:str>JAP SUMAWATI</td>
+    <td class="xl70" align="right" x:num>8161357387</td>
+    <td class="xl70" x:str>turunLimit</td>
+    <td class="xl70" x:str>Kenaikan / Penurunan Limit Kredit (Temporary)</td>
+    <td class="xl70" align="right" x:num>50000000</td>
+    <td class="xl75" align="right" x:num="15000000.">15,000,000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>649</td>
+    <td class="xl70" align="right" x:num>20130429</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.271203703705">8/3/2020 6:30</td>
+    <td class="xl70" x:str>RINDANG PANGESTU (13117872)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>VERANI ROSITA(14038312)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.340451388889">8/3/2020 8:10</td>
+   </tr>
+   <tr height="40" style='height:30.00pt;'>
+    <td class="xl70" height="40" align="right" style='height:30.00pt;' x:num>14</td>
+    <td class="xl71" x:str>4201940050002399</td>
+    <td class="xl70" x:str>REV8831901</td>
+    <td class="xl70" x:str>INGE DIRGAYANTI SUTRESNA</td>
+    <td class="xl70" align="right" x:num>8161120886</td>
+    <td class="xl70" x:str>nltemporary</td>
+    <td class="xl70" x:str>Kenaikan / Penurunan Limit Kredit (Temporary)</td>
+    <td class="xl70" align="right" x:num>45000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>594</td>
+    <td class="xl70" align="right" x:num>20090320</td>
+    <td class="xl70" x:str>D-45-COVID- 19- Segment Tidak Sesuai</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.271296296298">8/3/2020 6:30</td>
+    <td class="xl70" x:str>RINDANG PANGESTU (13117872)</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.290405092594">8/3/2020 6:58</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>15</td>
+    <td class="xl71" x:str>4201940051941843</td>
+    <td class="xl70" x:str>REV8832749</td>
+    <td class="xl70" x:str>DJONI MALAKA</td>
+    <td class="xl70" align="right" x:num>816810622</td>
+    <td class="xl70" x:str>konversi</td>
+    <td class="xl70" x:str>Upgrade / Downgrade</td>
+    <td class="xl70" align="right" x:num>50000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4312260050729719</td>
+    <td class="xl70" x:str>[{&quot;nomerKartu&quot;:&quot;4201 9400 5524 4319&quot;}]</td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>692</td>
+    <td class="xl70" align="right" x:num>20080213</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.280891203707">8/3/2020 6:44</td>
+    <td class="xl70" x:str>Haris Hanrico (B15032208)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.559039351851">8/3/2020 13:25</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>16</td>
+    <td class="xl71" x:str>4262110060866300</td>
+    <td class="xl70" x:str>REV8834010</td>
+    <td class="xl70" x:str>MUHAMAD AINUL ULUM</td>
+    <td class="xl70" align="right" x:num>8970331938</td>
+    <td class="xl70" x:str>konversi</td>
+    <td class="xl70" x:str>Upgrade / Downgrade</td>
+    <td class="xl70" align="right" x:num>4000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4201920050810611</td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>552</td>
+    <td class="xl70" align="right" x:num>20190122</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.280972222223">8/3/2020 6:44</td>
+    <td class="xl70" x:str>Haris Hanrico (B15032208)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.314618055556">8/3/2020 7:33</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>17</td>
+    <td class="xl71" x:str>4201940059051256</td>
+    <td class="xl70" x:str>REV8826857</td>
+    <td class="xl70" x:str>GUSTI MUHAMMAD HERMANSYAH</td>
+    <td class="xl70" align="right" x:num>8122072370</td>
+    <td class="xl70" x:str>konversi</td>
+    <td class="xl70" x:str>Upgrade / Downgrade</td>
+    <td class="xl70" align="right" x:num>50000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4312260050729644</td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>645</td>
+    <td class="xl70" align="right" x:num>20081125</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.281053240738">8/3/2020 6:44</td>
+    <td class="xl70" x:str>Haris Hanrico (B15032208)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>YOHANES DWI PRASETYO(02083262)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>reanalisa</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.537199074075">8/3/2020 12:53</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>18</td>
+    <td class="xl71" x:str>4587850050802751</td>
+    <td class="xl70" x:str>REV8832654</td>
+    <td class="xl70" x:str>VERONICA JASINTA POLORENCUS</td>
+    <td class="xl70" align="right" x:num>85296886499</td>
+    <td class="xl70" x:str>konversi</td>
+    <td class="xl70" x:str>Replace Kartu</td>
+    <td class="xl70" align="right" x:num>20000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4201920050810785</td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>628</td>
+    <td class="xl70" align="right" x:num>20100611</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.291620370372">8/3/2020 6:59</td>
+    <td class="xl70" x:str>Lintang Selviana Aswan (H19129187)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.397233796299">8/3/2020 9:32</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>19</td>
+    <td class="xl71" x:str>4262110060884519</td>
+    <td class="xl70" x:str>REV8825556</td>
+    <td class="xl70" x:str>ASTRIED TRIE GUNASIH</td>
+    <td class="xl70" align="right" x:num>81298644936</td>
+    <td class="xl70" x:str>konversi</td>
+    <td class="xl70" x:str>Perubahan Data Incoming Sama</td>
+    <td class="xl70" align="right" x:num>4000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4201920050810694</td>
+    <td class="xl70" x:str>[{&quot;nomerKartu&quot;:&quot;4201920050810694 &quot;}]</td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>577</td>
+    <td class="xl70" align="right" x:num>20160608</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.307800925926">8/3/2020 7:23</td>
+    <td class="xl70" x:str>RIAN BADRUZZAMAN (H16033882)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.600914351853">8/3/2020 14:25</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>20</td>
+    <td class="xl71" x:str>4201940073493633</td>
+    <td class="xl70" x:str>REV8827201</td>
+    <td class="xl70" x:str>DESI ARMADIANI</td>
+    <td class="xl70" align="right" x:num>8158767402</td>
+    <td class="xl70" x:str>renewal</td>
+    <td class="xl70" x:str>Renewal / Not Renewal</td>
+    <td class="xl70" align="right" x:num>166000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4201 9400 7349 3633</td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>523</td>
+    <td class="xl70" align="right" x:num>20070711</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.309293981481">8/3/2020 7:25</td>
+    <td class="xl70" x:str>RIAN BADRUZZAMAN (H16033882)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.335590277777">8/3/2020 8:03</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>21</td>
+    <td class="xl71" x:str>4262110060879725</td>
+    <td class="xl70" x:str>REV8832538</td>
+    <td class="xl70" x:str>BILLY HADIWIBOWO</td>
+    <td class="xl70" align="right" x:num>82216797061</td>
+    <td class="xl70" x:str>konversi</td>
+    <td class="xl70" x:str>Replace Kartu</td>
+    <td class="xl70" align="right" x:num>4000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>570</td>
+    <td class="xl70" align="right" x:num>20161229</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.31082175926">8/3/2020 7:27</td>
+    <td class="xl70" x:str>RIAN BADRUZZAMAN (H16033882)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.627789351849">8/3/2020 15:04</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>22</td>
+    <td class="xl71" x:str>4201920073958512</td>
+    <td class="xl70" x:str>REV8833417</td>
+    <td class="xl70" x:str>ISKANDAR T</td>
+    <td class="xl70" align="right" x:num>81387656767</td>
+    <td class="xl70" x:str>replacement_RNS</td>
+    <td class="xl70" x:str>Replace Kartu</td>
+    <td class="xl70" align="right" x:num>35000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4201 9200 7395 8512</td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>623</td>
+    <td class="xl70" align="right" x:num>20080708</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.311076388891">8/3/2020 7:27</td>
+    <td class="xl70" x:str>RIAN BADRUZZAMAN (H16033882)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.366319444445">8/3/2020 8:47</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>23</td>
+    <td class="xl71" x:str>4890870011389005</td>
+    <td class="xl70" x:str>REV8838269</td>
+    <td class="xl70" x:str>SISI AMELIA</td>
+    <td class="xl70" align="right" x:num>85339455151</td>
+    <td class="xl70" x:str>replacement_RNS</td>
+    <td class="xl70" x:str>Replace Kartu</td>
+    <td class="xl70" align="right" x:num>75000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4890 8700 1138 9005</td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>648</td>
+    <td class="xl70" align="right" x:num>20130830</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.325509259259">8/3/2020 7:48</td>
+    <td class="xl70" x:str>RIAN BADRUZZAMAN (H16033882)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.567314814813">8/3/2020 13:36</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>24</td>
+    <td class="xl71" x:str>4201920076279247</td>
+    <td class="xl70" x:str>REV8631813</td>
+    <td class="xl70" x:str>VIKRI ROMADHON</td>
+    <td class="xl70" align="right" x:num>81335564323</td>
+    <td class="xl70" x:str>releaseBlock</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>2000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>546</td>
+    <td class="xl70" align="right" x:num>20180813</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70" x:str>D05 - Bad SLIK</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.452326388891">8/3/2020 10:51</td>
+    <td class="xl70" x:str>Anggita Anggraeni (B15031765)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>YUSTHIE NOVITA PRATAMA(16033122)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.60800925926">8/3/2020 14:35</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>25</td>
+    <td class="xl71" x:str>4201920093407094</td>
+    <td class="xl70" x:str>REV8844755</td>
+    <td class="xl70" x:str>ELVIS USIA</td>
+    <td class="xl70" align="right" x:num>85941926693</td>
+    <td class="xl70" x:str>renewal</td>
+    <td class="xl70" x:str>Renewal / Not Renewal</td>
+    <td class="xl70" align="right" x:num>9000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>664</td>
+    <td class="xl70" align="right" x:num>20090605</td>
+    <td class="xl70" x:str>D10 - Cancel Proses by CH</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.46303240741">8/3/2020 11:06</td>
+    <td class="xl70" x:str>Anggita Anggraeni (B15031765)</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl76" align="right" x:num="43929.">4/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44047.368101851855">8/4/2020 8:50</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>26</td>
+    <td class="xl71" x:str>4201940070063165</td>
+    <td class="xl70" x:str>REV8816282</td>
+    <td class="xl70" x:str>MARIA CECILIA RATIH MUSTIKOWATI</td>
+    <td class="xl70" align="right" x:num>85233044644</td>
+    <td class="xl70" x:str>releaseBlock</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>10000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>534</td>
+    <td class="xl70" align="right" x:num>20141022</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70" x:str>D05 - Bad SLIK</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.46329861111">8/3/2020 11:07</td>
+    <td class="xl70" x:str>Anggita Anggraeni (B15031765)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>YUSTHIE NOVITA PRATAMA(16033122)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.641585648147">8/3/2020 15:23</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>27</td>
+    <td class="xl71" x:str>4890870010968619</td>
+    <td class="xl70" x:str>REV8816811</td>
+    <td class="xl70" x:str>SLAMET PUJIONO</td>
+    <td class="xl70" align="right" x:num>811589369</td>
+    <td class="xl70" x:str>releaseBlock</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>25000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>676</td>
+    <td class="xl70" align="right" x:num>20140830</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.463391203702">8/3/2020 11:07</td>
+    <td class="xl70" x:str>Anggita Anggraeni (B15031765)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>YUSTHIE NOVITA PRATAMA(16033122)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.612974537034">8/3/2020 14:42</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>28</td>
+    <td class="xl71" x:str>4201920050472867</td>
+    <td class="xl70" x:str>REV8817170</td>
+    <td class="xl70" x:str>PERWIRA SARI ETNA PHARMADY</td>
+    <td class="xl70" align="right" x:num>81311343198</td>
+    <td class="xl70" x:str>releaseBlock</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>6000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>20200217</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70" x:str>D05 - Bad SLIK</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.463472222225">8/3/2020 11:07</td>
+    <td class="xl70" x:str>Anggita Anggraeni (B15031765)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>YUSTHIE NOVITA PRATAMA(16033122)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.615231481483">8/3/2020 14:45</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>29</td>
+    <td class="xl71" x:str>4201920111535561</td>
+    <td class="xl70" x:str>REV8820036</td>
+    <td class="xl70" x:str>TJIU ENGRID JUHERY</td>
+    <td class="xl70" x:str>081806121256XX</td>
+    <td class="xl70" x:str>releaseBlock</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>6000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>605</td>
+    <td class="xl70" align="right" x:num>20120110</td>
+    <td class="xl70" x:str>D38 - Case Done</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.463564814818">8/3/2020 11:07</td>
+    <td class="xl70" x:str>Anggita Anggraeni (B15031765)</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.572824074072">8/3/2020 13:44</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>30</td>
+    <td class="xl71" x:str>4890870010843259</td>
+    <td class="xl70" x:str>REV8826742</td>
+    <td class="xl70" x:str>SUSANNA THOMAS</td>
+    <td class="xl70" align="right" x:num>87877070818</td>
+    <td class="xl70" x:str>releaseBlock</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>50000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>649</td>
+    <td class="xl70" align="right" x:num>20120628</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.463645833333">8/3/2020 11:07</td>
+    <td class="xl70" x:str>Anggita Anggraeni (B15031765)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>YUSTHIE NOVITA PRATAMA(16033122)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.642175925925">8/3/2020 15:24</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>31</td>
+    <td class="xl71" x:str>4890870054433769</td>
+    <td class="xl70" x:str>REV8828203</td>
+    <td class="xl70" x:str>NIMAS AYU DRIMAYANGSARI</td>
+    <td class="xl70" align="right" x:num>81232929298</td>
+    <td class="xl70" x:str>releaseBlock</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>48000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>617</td>
+    <td class="xl70" align="right" x:num>20140214</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.463738425926">8/3/2020 11:07</td>
+    <td class="xl70" x:str>Anggita Anggraeni (B15031765)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>YUSTHIE NOVITA PRATAMA(16033122)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.643078703702">8/3/2020 15:26</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>32</td>
+    <td class="xl71" x:str>4587850050928044</td>
+    <td class="xl70" x:str>REV8836136</td>
+    <td class="xl70" x:str>DARMAWAN</td>
+    <td class="xl70" align="right" x:num>85830115553</td>
+    <td class="xl70" x:str>konversi</td>
+    <td class="xl70" x:str>Pengiriman Kartu Kredit</td>
+    <td class="xl70" align="right" x:num>47000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>555</td>
+    <td class="xl70" align="right" x:num>20100519</td>
+    <td class="xl70" x:str>D25 - CH Uncontact</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.463831018518">8/3/2020 11:07</td>
+    <td class="xl70" x:str>Anggita Anggraeni (B15031765)</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.67459490741">8/3/2020 16:11</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>33</td>
+    <td class="xl71" x:str>4890870040636111</td>
+    <td class="xl70" x:str>REV8846215</td>
+    <td class="xl70" x:str>SUCIPTO</td>
+    <td class="xl70" align="right" x:num>81385348880</td>
+    <td class="xl70" x:str>konversi</td>
+    <td class="xl70" x:str>Replace Kartu (Non OTP)</td>
+    <td class="xl70" align="right" x:num>2000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4890870011897973</td>
+    <td class="xl70" x:str>[{&quot;nomerKartu&quot;:&quot;4890870011897981&quot;}]</td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>535</td>
+    <td class="xl70" align="right" x:num>20110825</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.464432870373">8/3/2020 11:08</td>
+    <td class="xl70" x:str>Anggita Anggraeni (B15031765)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.666250000002">8/3/2020 15:59</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>34</td>
+    <td class="xl71" x:str>4726700050956283</td>
+    <td class="xl70" x:str>REV8829839</td>
+    <td class="xl70" x:str>ETI SUSANTI</td>
+    <td class="xl70" align="right" x:num>82152289980</td>
+    <td class="xl70" x:str>unholdMF</td>
+    <td class="xl70" x:str>Mega First (Hold / UnHold / ChangeHold)</td>
+    <td class="xl70" align="right" x:num>50000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>617</td>
+    <td class="xl70" align="right" x:num>20191209</td>
+    <td class="xl70" x:str>D38 - Case Done</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.583703703705">8/3/2020 14:00</td>
+    <td class="xl70" x:str>HAIRUDIN (16012475)</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.641527777778">8/3/2020 15:23</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>35</td>
+    <td class="xl71" x:str>4726700050366855</td>
+    <td class="xl70" x:str>REV8830679</td>
+    <td class="xl70" x:str>HAMID ZAIN</td>
+    <td class="xl70" align="right" x:num>85325308585</td>
+    <td class="xl70" x:str>turunLimit</td>
+    <td class="xl70" x:str>Megafirst</td>
+    <td class="xl70" align="right" x:num>1</td>
+    <td class="xl70" align="right" x:num>1</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>620</td>
+    <td class="xl70" align="right" x:num>20190830</td>
+    <td class="xl70" x:str>D38 - Case Done</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.584652777776">8/3/2020 14:01</td>
+    <td class="xl70" x:str>HAIRUDIN (16012475)</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.733217592591">8/3/2020 17:35</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>36</td>
+    <td class="xl71" x:str>4201940054715152</td>
+    <td class="xl70" x:str>REV8846237</td>
+    <td class="xl70" x:str>ANDRIO SUHENDRO</td>
+    <td class="xl70" align="right" x:num>818202020</td>
+    <td class="xl70" x:str>replacement_RNS</td>
+    <td class="xl70" x:str>Replace Kartu</td>
+    <td class="xl70" align="right" x:num>109000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4201940054715152</td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>648</td>
+    <td class="xl70" align="right" x:num>20070718</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.588599537034">8/3/2020 14:07</td>
+    <td class="xl70" x:str>Rian Febrian Hidayat (H19129244)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.620057870372">8/3/2020 14:52</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>37</td>
+    <td class="xl71" x:str>4312260050702534</td>
+    <td class="xl70" x:str>REV8839307</td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>87722030509</td>
+    <td class="xl70" x:str>maintain_Data</td>
+    <td class="xl70" x:str>Maintain Data Card Carrier</td>
+    <td class="xl70" align="right" x:num>50000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>625</td>
+    <td class="xl70" align="right" x:num>20120730</td>
+    <td class="xl70" x:str>D38 - Case Done</td>
+    <td class="xl70" x:str>H01 - Hapus Case</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.610729166663">8/3/2020 14:39</td>
+    <td class="xl70" x:str>Yusrizal (B15031754)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>YUSTHIE NOVITA PRATAMA(16033122)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl70" x:str>rejected</td>
+    <td class="xl77" align="right" x:num="44046.689247685186">8/3/2020 16:32</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>38</td>
+    <td class="xl71" x:str>4201920140467950</td>
+    <td class="xl70" x:str>REV8840013</td>
+    <td class="xl70" x:str>REINNEKE DEVI ARISANTI</td>
+    <td class="xl70" align="right" x:num>8179701413</td>
+    <td class="xl70" x:str>reissue</td>
+    <td class="xl70" x:str>Perubahan Data Incoming Sama</td>
+    <td class="xl70" align="right" x:num>19000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4201 9200 5081 1304</td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>200000</td>
+    <td class="xl70" align="right" x:num>658</td>
+    <td class="xl70" align="right" x:num>20120516</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.61928240741">8/3/2020 14:51</td>
+    <td class="xl70" x:str>Rian Febrian Hidayat (H19129244)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.692175925928">8/3/2020 16:36</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>39</td>
+    <td class="xl71" x:str>4201940089201830</td>
+    <td class="xl70" x:str>REV8849849</td>
+    <td class="xl70" x:str>IGNATIUS AGUSTINUS HARTONO TJAHJONO</td>
+    <td class="xl70" align="right" x:num>81808101668</td>
+    <td class="xl70" x:str>renewal</td>
+    <td class="xl70" x:str>Renewal / Not Renewal</td>
+    <td class="xl70" align="right" x:num>24000000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71" x:str>4201940089201830</td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>600</td>
+    <td class="xl70" align="right" x:num>20120614</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.61954861111">8/3/2020 14:52</td>
+    <td class="xl70" x:str>Rian Febrian Hidayat (H19129244)</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.672048611108">8/3/2020 16:07</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl70" height="20" align="right" style='height:15.00pt;' x:num>40</td>
+    <td class="xl71" x:str>4201920111535561</td>
+    <td class="xl70" x:str>REV8850213</td>
+    <td class="xl70" x:str>TJIU ENGRID JUHERY</td>
+    <td class="xl70" x:str>081806121256XX</td>
+    <td class="xl70" x:str>releaseBlockColl</td>
+    <td class="xl70" x:str>Release Block Collection</td>
+    <td class="xl70" align="right" x:num>6000000</td>
+    <td class="xl75" align="right" x:num="5000000.">5,000,000</td>
+    <td class="xl70"></td>
+    <td class="xl70"></td>
+    <td class="xl71"></td>
+    <td class="xl70"></td>
+    <td class="xl70" align="right" x:num>0</td>
+    <td class="xl70" align="right" x:num>605</td>
+    <td class="xl70" align="right" x:num>20120110</td>
+    <td class="xl70" x:str>D41 - Assign Approval</td>
+    <td class="xl70"></td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.688958333332">8/3/2020 16:32</td>
+    <td class="xl70" x:str>Rian Febrian Hidayat (H19129244)</td>
+    <td class="xl70" x:str>assign</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>YUSTHIE NOVITA PRATAMA(16033122)</td>
+    <td class="xl76" align="right" x:num="43898.">3/8/2020</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl70" x:str>approved</td>
+    <td class="xl77" align="right" x:num="44046.797997685186">8/3/2020 19:09</td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" style='height:15.00pt;'></td>
+    <td colspan="26" style='mso-ignore:colspan;'></td>
+    <td class="xl79"></td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl66" height="20" style='height:15.00pt;'></td>
+    <td colspan="26" style='mso-ignore:colspan;'></td>
+    <td class="xl79"></td>
+   </tr>
+   <tr height="20" style='height:15.00pt;'>
+    <td class="xl72" height="20" style='height:15.00pt;'></td>
+    <td class="xl73" colspan="26" style='mso-ignore:colspan;'></td>
+    <td class="xl80"></td>
+   </tr>
+   <![if supportMisalignedColumns]>
+    <tr width="0" style='display:none;'>
+     <td width="33" style='width:25;'></td>
+     <td width="128" style='width:96;'></td>
+     <td width="85" style='width:64;'></td>
+     <td width="288" style='width:216;'></td>
+     <td width="115" style='width:86;'></td>
+     <td width="128" style='width:96;'></td>
+     <td width="288" style='width:216;'></td>
+     <td width="123" style='width:92;'></td>
+     <td width="120" style='width:90;'></td>
+     <td width="113" style='width:85;'></td>
+     <td width="101" style='width:76;'></td>
+     <td width="138" style='width:104;'></td>
+     <td width="277" style='width:208;'></td>
+     <td width="87" style='width:65;'></td>
+     <td width="56" style='width:42;'></td>
+     <td width="111" style='width:83;'></td>
+     <td width="267" style='width:200;'></td>
+     <td width="238" style='width:179;'></td>
+     <td width="111" style='width:83;'></td>
+     <td width="105" style='width:79;'></td>
+     <td width="250" style='width:188;'></td>
+     <td width="100" style='width:75;'></td>
+     <td width="136" style='width:102;'></td>
+     <td width="262" style='width:197;'></td>
+     <td width="175" style='width:131;'></td>
+     <td width="139" style='width:104;'></td>
+     <td width="111" style='width:83;'></td>
+     <td width="104" style='width:78;'></td>
+    </tr>
+   <![endif]>
+  </table>
+ </body>
+</html>

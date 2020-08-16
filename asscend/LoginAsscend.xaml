@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="asscend" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="726.4,552.8" sap2010:WorkflowViewState.IdRef="asscend_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uit="http://schemas.uipath.com/workflow/activities/terminal" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="asscend" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="979,2766" sap2010:WorkflowViewState.IdRef="asscend_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uit="http://schemas.uipath.com/workflow/activities/terminal" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -24,6 +24,8 @@
       <x:String>System.Windows.Markup</x:String>
       <x:String>UiPath.Terminal</x:String>
       <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>UiPath.CV</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -55,36 +57,109 @@
       <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="asscend" sap:VirtualizedContainerService.HintSize="672.8,1902.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="asscend" sap:VirtualizedContainerService.HintSize="989,2601" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Default="scsecofr" Name="user" />
+      <Variable x:TypeArguments="x:String" Default="SCSECOFR" Name="user" />
       <Variable x:TypeArguments="x:String" Default="delta678" Name="password" />
       <Variable x:TypeArguments="x:String" Default="asccend" Name="mainInput" />
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="checkAttempt" />
+      <Variable x:TypeArguments="x:String" Default="Attempt" Name="strAttempt" />
+      <Variable x:TypeArguments="x:String" Name="cardNumber">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">4890870050000091</Literal>
+        </Variable.Default>
+      </Variable>
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="631.2,1809.6" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="947,2509" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <uit:TerminalSession ContinueOnError="{x:Null}" ExistingConnection="{x:Null}" OutputConnection="{x:Null}" CloseConnection="True" ConnectionString="{}{'AttachExisting':false,'ConnectionType':0,'EhllBasicMode':false,'EhllDll':null,'EhllEnhanced':true,'EhllFunction':'hllapi','EhllSession':'A','Host':null,'Mode':1,'Port':23,'Profile':'C:\\Users\\Administrator\\Documents\\Tim Pratibha\\pratibha.bch','ProviderType':1,'ShowTerminal':true,'TerminalType':0}" DelayMS="1000" DisplayName="Terminal Session" sap:VirtualizedContainerService.HintSize="594.4,1578.4" sap2010:WorkflowViewState.IdRef="TerminalSession_1" TimeoutMS="50000">
+        <uit:TerminalSession ContinueOnError="{x:Null}" ExistingConnection="{x:Null}" OutputConnection="{x:Null}" CloseConnection="True" ConnectionString="{}{'AttachExisting':false,'ConnectionType':0,'EhllBasicMode':false,'EhllDll':null,'EhllEnhanced':true,'EhllFunction':'hllapi','EhllSession':'A','Host':null,'Mode':1,'Port':23,'Profile':'C:\\Users\\Administrator\\Documents\\Tim Pratibha\\pratibha.ws','ProviderType':1,'ShowTerminal':true,'TerminalType':0}" DelayMS="1000" DisplayName="Terminal Session" sap:VirtualizedContainerService.HintSize="909,2282" sap2010:WorkflowViewState.IdRef="TerminalSession_1" TimeoutMS="50000">
           <uit:TerminalSession.Body>
             <ActivityAction x:TypeArguments="uit:TerminalConnection">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="uit:TerminalConnection" Name="terminalSession" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="560.8,1478.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
-                <Sequence.Variables>
-                  <Variable x:TypeArguments="x:String" Default="Attempt" Name="strAttempt" />
-                </Sequence.Variables>
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="875,2183" sap2010:WorkflowViewState.IdRef="Sequence_2">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'PCSWS:Pres:00400000'" sap:VirtualizedContainerService.HintSize="519.2,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="[user]">
+                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="833,236" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                  <ui:CommentOut.Body>
+                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="242,158" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <Sequence DisplayName="Sequence Ibm oneLogin" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <Sequence.Variables>
+                          <Variable x:TypeArguments="x:Boolean" Default="False" Name="checkElementIBM" />
+                        </Sequence.Variables>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:UiElementExists DisplayName="Element Exists 'pcsws.exe  IBM i signon'" Exists="[checkElementIBM]" sap:VirtualizedContainerService.HintSize="521,106" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                          <ui:UiElementExists.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ad46353a-82d0-42a4-a32f-80c288b0b501" InformativeScreenshot="b034cde36f2ecd079a5c6e094987fe29" Selector="&lt;wnd app='pcsws.exe' cls='#32770' title='IBM i signon' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:UiElementExists.Target>
+                        </ui:UiElementExists>
+                        <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="521,59" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[checkElementIBM.ToString]" />
+                        <If Condition="[checkElementIBM]" sap:VirtualizedContainerService.HintSize="521,548" sap2010:WorkflowViewState.IdRef="If_4">
+                          <If.Then>
+                            <Sequence sap:VirtualizedContainerService.HintSize="376,400" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_10" Text="[user]">
+                                <ui:TypeInto.Target>
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b8de066d-4964-425f-a499-e5cb30b74c06" InformativeScreenshot="356976b5afc1a699b2c1fad852b1633c" Selector="&lt;wnd app='pcsws.exe' cls='#32770' title='IBM i signon' /&gt;&lt;wnd ctrlid='1321' /&gt;">
+                                    <ui:Target.TimeoutMS>
+                                      <InArgument x:TypeArguments="x:Int32" />
+                                    </ui:Target.TimeoutMS>
+                                    <ui:Target.WaitForReady>
+                                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                                    </ui:Target.WaitForReady>
+                                  </ui:Target>
+                                </ui:TypeInto.Target>
+                              </ui:TypeInto>
+                              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="TypeInto_11" Text="[password+ &quot;[k(enter)]&quot;]">
+                                <ui:TypeInto.Target>
+                                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d2fe1376-09e3-41d7-a69d-8ec9c21d0a94" InformativeScreenshot="69f02ae31cb587ddeb5fc2fa54b673a2" Selector="&lt;wnd app='pcsws.exe' cls='#32770' title='IBM i signon' /&gt;&lt;wnd ctrlid='1323' /&gt;">
+                                    <ui:Target.TimeoutMS>
+                                      <InArgument x:TypeArguments="x:Int32" />
+                                    </ui:Target.TimeoutMS>
+                                    <ui:Target.WaitForReady>
+                                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                                    </ui:Target.WaitForReady>
+                                  </ui:Target>
+                                </ui:TypeInto.Target>
+                              </ui:TypeInto>
+                            </Sequence>
+                          </If.Then>
+                        </If>
+                      </Sequence>
+                    </Sequence>
+                  </ui:CommentOut.Body>
+                </ui:CommentOut>
+                <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'PCSWS:Pres:00400000'" sap:VirtualizedContainerService.HintSize="833,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="[user]">
                   <ui:TypeInto.Target>
                     <ui:Target Element="{x:Null}" Id="953dae49-d4f6-42b1-932e-13464a61b1fc" InformativeScreenshot="e0700b742f7b24a5f9851ec42411705c" Selector="&lt;wnd app='pcsws.exe' cls='PCSWS:Main*' title='Session A - [24 x 80]' /&gt;&lt;wnd cls='PCSWS:Pres*' /&gt;">
                       <ui:Target.ClippingRegion>
@@ -99,8 +174,8 @@
                     </ui:Target>
                   </ui:TypeInto.Target>
                 </ui:TypeInto>
-                <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="519.2,62.4" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_1" Key="Tab" TimeoutMS="5000" WaitType="READY" />
-                <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'PCSWS:Pres:00400000'" sap:VirtualizedContainerService.HintSize="519.2,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[password+ &quot;[k(enter)]&quot;]">
+                <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="833,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_1" Key="Tab" TimeoutMS="5000" WaitType="READY" />
+                <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'PCSWS:Pres:00400000'" sap:VirtualizedContainerService.HintSize="833,134" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[password+ &quot;[k(enter)]&quot;]">
                   <ui:TypeInto.Target>
                     <ui:Target Element="{x:Null}" Id="16717235-7146-4b8e-9acc-7b45b147e9de" InformativeScreenshot="dc2b03a68805090a54376093681dc8c2" Selector="&lt;wnd app='pcsws.exe' cls='PCSWS:Main*' title='Session A - [24 x 80]' /&gt;&lt;wnd cls='PCSWS:Pres*' /&gt;">
                       <ui:Target.ClippingRegion>
@@ -115,30 +190,23 @@
                     </ui:Target>
                   </ui:TypeInto.Target>
                 </ui:TypeInto>
-                <ui:TextExists DisplayName="Text Exists 'pcsws.exe Session'" FormattedText="True" sap:VirtualizedContainerService.HintSize="519.2,135.2" sap2010:WorkflowViewState.IdRef="TextExists_1" Occurrence="1" Result="[checkAttempt]" Text="[strAttempt]">
-                  <ui:TextExists.Target>
-                    <ui:Target Element="{x:Null}" Id="e9a43cbe-ce5f-4a73-8b7d-1dbbd89d5c7b" InformativeScreenshot="e29bd2f6943fe8356813af4425965b6f" Selector="&lt;wnd app='pcsws.exe' cls='PCSWS:Main*' title='Session A - [24 x 80]' /&gt;">
-                      <ui:Target.ClippingRegion>
-                        <ui:Region Rectangle="271, 109, 431, 32" />
-                      </ui:Target.ClippingRegion>
-                      <ui:Target.TimeoutMS>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:Target.TimeoutMS>
-                      <ui:Target.WaitForReady>
-                        <InArgument x:TypeArguments="ui:WaitForReady" />
-                      </ui:Target.WaitForReady>
-                    </ui:Target>
-                  </ui:TextExists.Target>
-                </ui:TextExists>
-                <If Condition="[checkAttempt]" sap:VirtualizedContainerService.HintSize="519.2,377.6" sap2010:WorkflowViewState.IdRef="If_2">
+                <uit:TerminalGetTextAtPosition Column="24" DelayMS="300" DisplayName="Get Text at Position" sap:VirtualizedContainerService.HintSize="833,87" sap2010:WorkflowViewState.IdRef="TerminalGetTextAtPosition_7" Length="7" Row="1" Text="[strAttempt]" TimeoutMS="5000" WaitType="READY" />
+                <If Condition="[strAttempt = &quot;Attempt&quot;]" sap:VirtualizedContainerService.HintSize="833,858" sap2010:WorkflowViewState.IdRef="If_2">
                   <If.Then>
-                    <Sequence sap:VirtualizedContainerService.HintSize="375.2,228" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <Sequence sap:VirtualizedContainerService.HintSize="454,711" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="strMainMenu">
+                          <Variable.Default>
+                            <Literal x:TypeArguments="x:String" Value="" />
+                          </Variable.Default>
+                        </Variable>
+                      </Sequence.Variables>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'PCSWS:Pres:00400000'" sap:VirtualizedContainerService.HintSize="333.6,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_4" Text="90">
+                      <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'PCSWS:Pres:00400000'" sap:VirtualizedContainerService.HintSize="412,134" sap2010:WorkflowViewState.IdRef="TypeInto_4" Text="01[k(enter)]">
                         <ui:TypeInto.Target>
                           <ui:Target Element="{x:Null}" Id="ad0a2fdd-6081-4afc-83cb-04eeafbc065a" InformativeScreenshot="56fcecf4da584a4a632d1c2809a3bb83" Selector="&lt;wnd app='pcsws.exe' cls='PCSWS:Main*' title='Session A - [24 x 80]' /&gt;&lt;wnd cls='PCSWS:Pres*' /&gt;">
                             <ui:Target.ClippingRegion>
@@ -153,11 +221,29 @@
                           </ui:Target>
                         </ui:TypeInto.Target>
                       </ui:TypeInto>
+                      <ui:InterruptibleDoWhile DisplayName="Do While" sap:VirtualizedContainerService.HintSize="412,445" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+                        <ui:InterruptibleDoWhile.Body>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,280" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_5" Key="F3" TimeoutMS="5000" WaitType="READY" />
+                            <uit:TerminalGetTextAtPosition Column="33" DelayMS="300" DisplayName="Get Text at Position" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="TerminalGetTextAtPosition_2" Length="15" Row="1" Text="[strMainMenu]" TimeoutMS="5000" WaitType="READY" />
+                          </Sequence>
+                        </ui:InterruptibleDoWhile.Body>
+                        <ui:InterruptibleDoWhile.Condition>
+                          <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="(Not strMainMenu.Equals(&quot;IBM i Main Menu&quot;))" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_1" />
+                        </ui:InterruptibleDoWhile.Condition>
+                      </ui:InterruptibleDoWhile>
                     </Sequence>
                   </If.Then>
+                  <If.Else>
+                    <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_3" Key="Transmit" TimeoutMS="5000" WaitType="READY" />
+                  </If.Else>
                 </If>
-                <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="519.2,62.4" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_3" Key="Transmit" TimeoutMS="5000" WaitType="READY" />
-                <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'PCSWS:Pres:00400000'" sap:VirtualizedContainerService.HintSize="519.2,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="[mainInput+ &quot;[k(enter)]&quot;]">
+                <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'PCSWS:Pres:00400000'" sap:VirtualizedContainerService.HintSize="833,134" sap2010:WorkflowViewState.IdRef="TypeInto_3" Text="[mainInput+ &quot;[k(enter)]&quot;]">
                   <ui:TypeInto.Target>
                     <ui:Target Element="{x:Null}" Id="30decf09-7cc8-4546-bda2-51e314cc9f91" InformativeScreenshot="f33b0a009f1ebd9b44a67cfdf4c7854e" Selector="&lt;wnd app='pcsws.exe' cls='PCSWS:Main*' title='Session A - [24 x 80]' /&gt;&lt;wnd cls='PCSWS:Pres*' /&gt;">
                       <ui:Target.ClippingRegion>
@@ -172,14 +258,268 @@
                     </ui:Target>
                   </ui:TypeInto.Target>
                 </ui:TypeInto>
-                <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="519.2,62.4" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_4" Key="F4" TimeoutMS="5000" WaitType="READY" />
+                <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="833,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_4" Key="F4" TimeoutMS="5000" WaitType="READY" />
+                <Sequence DisplayName="UpDownLimit" sap:VirtualizedContainerService.HintSize="621,955" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:Int32" Name="req_limit">
+                      <Variable.Default>
+                        <Literal x:TypeArguments="x:Int32" Value="8000000" />
+                      </Variable.Default>
+                    </Variable>
+                    <Variable x:TypeArguments="x:String" Name="cust_limit">
+                      <Variable.Default>
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </Variable.Default>
+                    </Variable>
+                    <Variable x:TypeArguments="x:String" Name="check_status_card">
+                      <Variable.Default>
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </Variable.Default>
+                    </Variable>
+                    <Variable x:TypeArguments="x:String" Name="sentApproval">
+                      <Variable.Default>
+                        <Literal x:TypeArguments="x:String" Value="" />
+                      </Variable.Default>
+                    </Variable>
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'PCSWS:Pres:00400000'" sap:VirtualizedContainerService.HintSize="579,134" sap2010:WorkflowViewState.IdRef="TypeInto_5" Text="imcc[k(enter)]">
+                    <ui:TypeInto.Target>
+                      <ui:Target Element="{x:Null}" Id="b75b28fe-ac6f-49ff-9e2d-b09ca9004ea2" InformativeScreenshot="a9afb9f556541270cfce8795e7b4c5e8" Selector="&lt;wnd app='pcsws.exe' cls='PCSWS:Main*' title='Session A - [24 x 80]' /&gt;&lt;wnd cls='PCSWS:Pres*' /&gt;">
+                        <ui:Target.ClippingRegion>
+                          <ui:Region Rectangle="464, 246, 55, 26" />
+                        </ui:Target.ClippingRegion>
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:TypeInto.Target>
+                  </ui:TypeInto>
+                  <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'PCSWS:Pres:00400000'" sap:VirtualizedContainerService.HintSize="579,134" sap2010:WorkflowViewState.IdRef="TypeInto_6" Text="c[k(tab)]">
+                    <ui:TypeInto.Target>
+                      <ui:Target Element="{x:Null}" Id="d0b2f6ff-559a-4f59-a858-c7a3bf8ed992" InformativeScreenshot="41b1cceedc054f08b7589a203b045c32" Selector="&lt;wnd app='pcsws.exe' cls='PCSWS:Main*' title='Session A - [24 x 80]' /&gt;&lt;wnd cls='PCSWS:Pres*' /&gt;">
+                        <ui:Target.ClippingRegion>
+                          <ui:Region Rectangle="395, 68, 15, 19" />
+                        </ui:Target.ClippingRegion>
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:TypeInto.Target>
+                  </ui:TypeInto>
+                  <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'PCSWS:Pres:00400000'" sap:VirtualizedContainerService.HintSize="579,134" sap2010:WorkflowViewState.IdRef="TypeInto_7" Text="[cardNumber + &quot;[k(enter)]&quot;]">
+                    <ui:TypeInto.Target>
+                      <ui:Target Element="{x:Null}" Id="9ee18eee-44e4-4913-a264-f20dcfaf58d3" InformativeScreenshot="de193381bdcc88748b4bfc3e38f2a8f8" Selector="&lt;wnd app='pcsws.exe' cls='PCSWS:Main*' title='Session A - [24 x 80]' /&gt;&lt;wnd cls='PCSWS:Pres*' /&gt;">
+                        <ui:Target.ClippingRegion>
+                          <ui:Region Rectangle="394, 132, 232, 31" />
+                        </ui:Target.ClippingRegion>
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:TypeInto.Target>
+                  </ui:TypeInto>
+                  <uit:TerminalGetTextAtPosition Column="2" DelayMS="1500" DisplayName="Get Text at Position" sap:VirtualizedContainerService.HintSize="579,87" sap2010:WorkflowViewState.IdRef="TerminalGetTextAtPosition_1" Length="14" Row="22" Text="[check_status_card]" TimeoutMS="5000" WaitType="READY" />
+                  <If Condition="[check_status_card.Equals(&quot;CARD NOT FOUND&quot;)]" sap:VirtualizedContainerService.HintSize="579,214" sap2010:WorkflowViewState.IdRef="If_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If.Then>
+                      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[check_status_card]" />
+                    </If.Then>
+                    <If.Else>
+                      <Sequence DisplayName="on Process" sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                        <Sequence.Variables>
+                          <Variable x:TypeArguments="x:String" Name="accInstalmentLimit">
+                            <Variable.Default>
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </Variable.Default>
+                          </Variable>
+                          <Variable x:TypeArguments="x:String" Name="custInstalmentLimit">
+                            <Variable.Default>
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </Variable.Default>
+                          </Variable>
+                          <Variable x:TypeArguments="x:Boolean" Name="statusRecord">
+                            <Variable.Default>
+                              <Literal x:TypeArguments="x:Boolean" Value="True" />
+                            </Variable.Default>
+                          </Variable>
+                          <Variable x:TypeArguments="x:String" Name="msgStatusRecord">
+                            <Variable.Default>
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </Variable.Default>
+                          </Variable>
+                        </Sequence.Variables>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uit:TerminalMoveCursor Column="37" DelayMS="300" DisplayName="Move Cursor" sap:VirtualizedContainerService.HintSize="1129,59" sap2010:WorkflowViewState.IdRef="TerminalMoveCursor_1" Row="9" TimeoutMS="5000" WaitType="READY" />
+                        <Sequence DisplayName="Sequence backspace" sap:VirtualizedContainerService.HintSize="1129,66" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_29" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                          <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_30" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                          <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_31" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                          <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_32" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                          <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_33" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                          <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_34" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                          <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_35" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                          <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_36" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                          <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_37" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                          <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_38" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                          <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_39" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                          <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_40" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                        </Sequence>
+                        <uit:TerminalSetFieldAtPosition Column="23" DelayMS="300" DisplayName="Set Field at Position" sap:VirtualizedContainerService.HintSize="1129,87" sap2010:WorkflowViewState.IdRef="TerminalSetFieldAtPosition_2" Row="9" Text="[req_limit.ToString]" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalGetTextAtPosition Column="23" DelayMS="300" DisplayName="Get Text at Position" sap:VirtualizedContainerService.HintSize="1129,87" sap2010:WorkflowViewState.IdRef="TerminalGetTextAtPosition_3" Length="11" Row="15" Text="[cust_limit]" TimeoutMS="5000" WaitType="READY" />
+                        <If Condition="[req_limit &gt; Integer.parse(cust_limit)]" sap:VirtualizedContainerService.HintSize="1129,1527" sap2010:WorkflowViewState.IdRef="If_5">
+                          <If.Then>
+                            <Sequence sap:VirtualizedContainerService.HintSize="984,1379" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uit:TerminalMoveCursor Column="37" DelayMS="300" DisplayName="Move Cursor" sap:VirtualizedContainerService.HintSize="942,59" sap2010:WorkflowViewState.IdRef="TerminalMoveCursor_3" Row="15" TimeoutMS="5000" WaitType="READY" />
+                              <Sequence DisplayName="Sequence backspace" sap:VirtualizedContainerService.HintSize="942,66" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_41" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                                <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_42" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                                <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_43" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                                <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_44" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                                <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,62" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_45" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                                <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_46" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                                <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_47" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                                <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_48" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                                <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_49" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                                <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_50" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                                <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_51" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                                <uit:TerminalSendControlKey DelayMS="100" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_52" Key="BackSpace" TimeoutMS="5000" WaitType="READY" />
+                              </Sequence>
+                              <uit:TerminalSetFieldAtPosition Column="23" DelayMS="300" DisplayName="Set Field at Position" sap:VirtualizedContainerService.HintSize="942,87" sap2010:WorkflowViewState.IdRef="TerminalSetFieldAtPosition_3" Row="15" Text="[req_limit.ToString]" TimeoutMS="5000" WaitType="READY" />
+                              <uit:TerminalGetTextAtPosition Column="58" DelayMS="300" DisplayName="Get Text at Position" sap:VirtualizedContainerService.HintSize="942,87" sap2010:WorkflowViewState.IdRef="TerminalGetTextAtPosition_5" Length="11" Row="11" Text="[accInstalmentLimit]" TimeoutMS="5000" WaitType="READY" />
+                              <uit:TerminalGetTextAtPosition Column="65" DelayMS="300" DisplayName="Get Text at Position" sap:VirtualizedContainerService.HintSize="942,87" sap2010:WorkflowViewState.IdRef="TerminalGetTextAtPosition_6" Length="11" Row="16" Text="[custInstalmentLimit]" TimeoutMS="5000" WaitType="READY" />
+                              <If Condition="[custInstalmentLimit.Equals(&quot;&quot;)]" sap:VirtualizedContainerService.HintSize="942,701" sap2010:WorkflowViewState.IdRef="If_6">
+                                <If.Then>
+                                  <Sequence sap:VirtualizedContainerService.HintSize="376,405" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uit:TerminalMoveCursor Column="79" DelayMS="300" DisplayName="Move Cursor" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="TerminalMoveCursor_5" Row="16" TimeoutMS="5000" WaitType="READY" />
+                                    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Backspace12 workflow" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Backspace12.xaml">
+                                      <ui:InvokeWorkflowFile.Arguments>
+                                        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                      </ui:InvokeWorkflowFile.Arguments>
+                                    </ui:InvokeWorkflowFile>
+                                    <uit:TerminalSetFieldAtPosition Column="65" DelayMS="300" DisplayName="Set Field at Position" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="TerminalSetFieldAtPosition_4" Row="16" Text="[accInstalmentLimit]" TimeoutMS="5000" WaitType="READY" />
+                                  </Sequence>
+                                </If.Then>
+                                <If.Else>
+                                  <If Condition="[Integer.Parse(custInstalmentLimit) &lt; Integer.Parse(accInstalmentLimit)]" sap:VirtualizedContainerService.HintSize="521,553" sap2010:WorkflowViewState.IdRef="If_7">
+                                    <If.Then>
+                                      <Sequence sap:VirtualizedContainerService.HintSize="376,405" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <uit:TerminalMoveCursor Column="79" DelayMS="300" DisplayName="Move Cursor" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="TerminalMoveCursor_4" Row="16" TimeoutMS="5000" WaitType="READY" />
+                                        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Backspace12 workflow" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Backspace12.xaml">
+                                          <ui:InvokeWorkflowFile.Arguments>
+                                            <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                          </ui:InvokeWorkflowFile.Arguments>
+                                        </ui:InvokeWorkflowFile>
+                                        <uit:TerminalSetFieldAtPosition Column="65" DelayMS="300" DisplayName="Set Field at Position" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="TerminalSetFieldAtPosition_5" Row="16" Text="[accInstalmentLimit]" TimeoutMS="5000" WaitType="READY" />
+                                      </Sequence>
+                                    </If.Then>
+                                  </If>
+                                </If.Else>
+                              </If>
+                            </Sequence>
+                          </If.Then>
+                        </If>
+                        <uit:TerminalMoveCursor Column="79" DelayMS="300" DisplayName="Move Cursor" sap:VirtualizedContainerService.HintSize="1129,59" sap2010:WorkflowViewState.IdRef="TerminalMoveCursor_6" Row="22" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="1129,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_53" Key="Transmit" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalGetTextAtPosition Column="2" DelayMS="300" DisplayName="Get Text at Position" sap:VirtualizedContainerService.HintSize="1129,87" sap2010:WorkflowViewState.IdRef="TerminalGetTextAtPosition_8" Length="17" Row="22" Text="[msgStatusRecord]" TimeoutMS="5000" WaitType="READY" />
+                        <If Condition="[msgStatusRecord = &quot;RECORD NOT CHANGE&quot;]" sap:VirtualizedContainerService.HintSize="1129,527" sap2010:WorkflowViewState.IdRef="If_8">
+                          <If.Then>
+                            <Sequence sap:VirtualizedContainerService.HintSize="376,153" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_55" Key="F4" TimeoutMS="5000" WaitType="READY" />
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence DisplayName="Sequence in FSCl" sap:VirtualizedContainerService.HintSize="376,379" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uit:TerminalGetTextAtPosition Column="2" DelayMS="300" DisplayName="Get Text at Position" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="TerminalGetTextAtPosition_4" Length="39" Row="22" Text="[sentApproval]" TimeoutMS="5000" WaitType="READY" />
+                              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[sentApproval]" />
+                              <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_56" Key="F4" TimeoutMS="5000" WaitType="READY" />
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                        <uit:TerminalSetFieldAtPosition Column="40" DelayMS="300" DisplayName="Set Field at Position" sap:VirtualizedContainerService.HintSize="1129,87" sap2010:WorkflowViewState.IdRef="TerminalSetFieldAtPosition_10" Row="19" Text="fscl" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="1129,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_65" Key="Transmit" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalSetFieldAtPosition Column="25" DelayMS="300" DisplayName="Set Field at Position" sap:VirtualizedContainerService.HintSize="1129,87" sap2010:WorkflowViewState.IdRef="TerminalSetFieldAtPosition_11" Row="6" Text="[cardNumber]" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="1129,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_66" Key="Transmit" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalSetFieldAtPosition Column="3" DelayMS="300" DisplayName="Set Field at Position" sap:VirtualizedContainerService.HintSize="1129,87" sap2010:WorkflowViewState.IdRef="TerminalSetFieldAtPosition_12" Row="10" Text="a" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="1129,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_67" Key="Transmit" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="1129,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_68" Key="Transmit" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="1129,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_69" Key="Transmit" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="1129,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_70" Key="F4" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="1129,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_71" Key="F3" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalSetFieldAtPosition Column="43" DelayMS="300" DisplayName="Set Field at Position" sap:VirtualizedContainerService.HintSize="1129,87" sap2010:WorkflowViewState.IdRef="TerminalSetFieldAtPosition_13" Row="19" Text="90" TimeoutMS="5000" WaitType="READY" />
+                        <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="1129,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_72" Key="Transmit" TimeoutMS="5000" WaitType="READY" />
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
               </Sequence>
             </ActivityAction>
           </uit:TerminalSession.Body>
         </uit:TerminalSession>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="597.6,22.4" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="913,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -190,7 +530,7 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Error open terminal&quot;]" />
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Error open terminal&quot;]" />
           </ActivityAction>
         </Catch>
       </TryCatch.Catches>
